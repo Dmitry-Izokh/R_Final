@@ -15,7 +15,7 @@
                   DisplayMemberPath="Name"
                   Margin="5,0,5,5
                   "/>
-        <Label Content = "Выберите тип марки помещения"
+        <Label Content = "Выберите уровень"
                Margin="5,5,5,0"/>
         <ComboBox ItemsSource="{Binding Levels}"
                   SelectedValue="{Binding SelectedLevel}"
